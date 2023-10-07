@@ -1,0 +1,26 @@
+<h1 mat-dialog-title>Select Col. Background</h1>
+<div mat-dialog-content>
+        <div class="options">
+            <h5>Active</h5>
+            <input class="btns-picker" type="color" #col1 name="col1" [value]="colBackgrounds$.col1" (change)="onUpdateBackgrounds(col1)">
+        </div>
+        <div class="options">
+            <h5>Currency Id</h5>
+            <input class="btns-picker" type="color" #col2 name="col2" [value]="colBackgrounds$.col2" (change)="onUpdateBackgrounds(col2)">
+        </div>
+        <div class="options">
+            <h5>Country</h5>
+            <input class="btns-picker" type="color" #col3 name="col3" [value]="colBackgrounds$.col3" (change)="onUpdateBackgrounds(col3)">
+        </div>
+        <div class="options">
+            <h5>Currency Name</h5>
+            <input class="btns-picker" type="color" #col4 name="col4" [value]="colBackgrounds$.col4" (change)="onUpdateBackgrounds(col4)">
+        </div>
+        <div class="options">
+            <h5>Currency Code</h5>
+            <input class="btns-picker" type="color" #col5 name="col5" [value]="colBackgrounds$.col5" (change)="onUpdateBackgrounds(col5)">
+        </div>
+</div>
+<div mat-dialog-actions>
+    <button mat-button mat-dialog-close>Close</button>
+</div>
